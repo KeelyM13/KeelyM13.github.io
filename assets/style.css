@@ -1,3 +1,10 @@
+/* pastel hex codes
+yellow #e5e5a7
+red #ffb3ba
+green #baffc9
+blue #bae1ff
+orange #ffdfba */
+
 body, html {
     height: 100%;
 }
@@ -19,26 +26,39 @@ body, html {
 
 
 nav li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
   }
   a {
+    
     text-decoration: none;
+  }
+
+  .intro {
+      margin: 0 auto;
   }
 
   h1 {
     font-size: 120px;
     text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    text-shadow: 1.5px 1.5px gray;
+    
+
   }
 
 
 
 h1:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
+      transition-duration: 0.8s;
+      /* transition-timing-function: ease-out; */
   }
 
 
-
+/* 
   .flower {
     position: absolute;
     margin: auto;
@@ -143,7 +163,7 @@ h1:hover {
     width: 5px;
     border-radius: 50%;
 
-}
+} */
 
 /*
 grid-template-areas:
@@ -153,6 +173,11 @@ grid-template-areas:
       
 grid-template-columns: repeat(3, 1fr);
 */
+
+#portfolio {
+    max-width: 1080px;
+    margin: auto;
+}
 .container {
     display: grid;
     /* grid-template-columns: 30% 30% 30%;
@@ -188,7 +213,7 @@ border-radius: 1%;
 color: white;
 }
 
-#item1 {
- color: white;
- display: grid;
+footer {
+    text-align: center;
+    padding: 10px;
 }
