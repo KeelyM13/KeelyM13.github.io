@@ -61,8 +61,14 @@ a:hover {
 
 .intro {
       margin: 0 auto;
+      text-align: center;
       
   }
+  .smaller-intro {
+    margin: 0 auto;
+    text-align: center;
+    
+}
 
 
 
