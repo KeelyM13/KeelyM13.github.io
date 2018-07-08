@@ -18,7 +18,9 @@ body, html {
     background-size: cover;
     /* background-image: url(img/background.jpg); */
 }
-
+nav {
+    position: fixed;
+}
 #navbar {
     position: fixed;
     top: 0;
@@ -33,7 +35,9 @@ li {
     list-style-type: none;
     float: right;
   }
-
+nava {
+    float: right;
+}
 a {
     
     text-decoration: none;
@@ -52,10 +56,13 @@ a:hover {
 
 .intro {
       margin: 0 auto;
+      
   }
 
+
+
 h1 {
-    font-size: 120px;
+    font-size: 90px;
     text-align: center;
     display: inline-block;
     margin: 0 auto;
@@ -67,11 +74,18 @@ h1 {
 h3 {
     font-size: 20px;
 }
-
+h4 {
+    font-size: 24px;
+}
 i {
     font-size: 3em;
     padding: 3px;
     margin-bottom: 4px;
+}
+
+#icons {
+    font-size: 10px;
+    padding-left: 5px;
 }
 #view-link {
     padding: 5px;
