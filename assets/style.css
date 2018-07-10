@@ -4,9 +4,11 @@ red #ffb3ba
 green #baffc9
 blue #bae1ff
 orange #ffdfba */
+
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+
 body, html {
     height: 100%;
 }
@@ -58,6 +60,19 @@ a:hover {
 .flowers {
     
     position: relative;
+}
+
+@keyframes appear {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {eft:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+#redflur {
+    animation-name: appear;
+    animation-duration: 1s;
 }
 
 
