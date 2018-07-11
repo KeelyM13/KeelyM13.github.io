@@ -56,6 +56,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* img{
+    width: 25px;
+    height: 25px;
+} */
 
 .flowers {
     display: inline-flex;
@@ -68,11 +72,11 @@ a:hover {
 
 .redflower {
     height: 40px;
-    width: 70%;
-    margin: 50px auto;
+    /* width: 40px; */
+    margin: 0px auto;
     position: relative;
     animation-name: appear;
-    animation-duration: 4s;
+    animation-duration: 3.5s;
     animation-iteration-count: infinite;
 }
 
