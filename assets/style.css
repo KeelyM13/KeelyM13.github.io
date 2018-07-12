@@ -44,6 +44,16 @@ li {
     list-style-type: none;
     float: right;
   }
+  
+a {
+    text-decoration: none;
+    color: #ffb3ba;
+}
+
+#connect {
+    color: #000;
+}
+
 
 #nava {
     
@@ -54,6 +64,10 @@ li {
   }
 
 #nava:hover {
+    text-decoration: underline;
+}
+
+#view-link:hover {
     text-decoration: underline;
 }
 /* img{
