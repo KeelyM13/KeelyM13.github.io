@@ -230,7 +230,10 @@ grid-template-areas:
       
 grid-template-columns: repeat(3, 1fr);
 */
-
+#port-target {
+    height: 100px;
+    
+}
 #portfolio {
     max-width: 1080px;
     margin: auto;
