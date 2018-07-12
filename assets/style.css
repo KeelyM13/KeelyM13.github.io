@@ -102,6 +102,7 @@ a {
     position: relative;
     animation-name: appear;
     animation-duration: 3.8s;
+    animation-delay: 0.5s;
     animation-iteration-count: infinite;
 }
 
@@ -112,6 +113,7 @@ a {
     animation-name: appear;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-delay: 0.2s;
 
 }
 
@@ -122,6 +124,7 @@ a {
     animation-name: appear;
     animation-duration: 3.2s;
     animation-iteration-count: infinite;
+    animation-delay: 0.4s;
 }
 
 .orangeflower {
