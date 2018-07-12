@@ -79,8 +79,9 @@ a {
     display: inline-flex;
     /* position: relative; */
     width: 100%;
-    align-items: center;
-   
+    /* align-items: center; */
+    /* margin: 0 auto;  */
+   grid-template-rows: 50px;
     
 }
 
@@ -91,6 +92,43 @@ a {
     position: relative;
     animation-name: appear;
     animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+.blueflower {
+    height: 40px;
+    /* width: 40px; */
+    margin: 0px auto;
+    position: relative;
+    animation-name: appear;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+}
+
+.yellowflower {
+    /* width: 40px; */
+    margin: 0px auto;
+    position: relative;
+    animation-name: appear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.greenflower {
+    /* width: 40px; */
+    margin: 0px auto;
+    position: relative;
+    animation-name: appear;
+    animation-duration: 3.2s;
+    animation-iteration-count: infinite;
+}
+
+.orangeflower {
+    margin: 0px auto;
+    position: relative;
+    animation-name: appear;
+    animation-duration: 3.1s;
     animation-iteration-count: infinite;
 }
 
@@ -230,11 +268,11 @@ grid-template-areas:
       
 grid-template-columns: repeat(3, 1fr);
 */
-#port-target {
+#portfolio {
     height: 100px;
     
 }
-#portfolio {
+#port-target {
     max-width: 1080px;
     margin: auto;
 }
