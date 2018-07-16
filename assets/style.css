@@ -175,7 +175,7 @@ h1 {
     display: inline-block;
     margin: 0 auto;
     /* cursor: pointer; */
-    text-shadow: 1.5px 1.5px 1px gray;
+    text-shadow: 1.5px 1.5px 1px #b4b4b4;
     
 
   }
