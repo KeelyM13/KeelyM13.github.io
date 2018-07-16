@@ -82,6 +82,7 @@ a {
     /* align-items: center; */
     /* margin: 0 auto;  */
    grid-template-rows: 50px;
+  
     
 }
 
@@ -174,7 +175,7 @@ h1 {
     display: inline-block;
     margin: 0 auto;
     /* cursor: pointer; */
-    text-shadow: 1.5px 1.5px gray;
+    text-shadow: 1.5px 1.5px 1px gray;
     
 
   }
