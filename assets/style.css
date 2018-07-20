@@ -69,6 +69,19 @@ a {
 
 #view-link:hover {
     text-decoration: underline;
+    background: linear-gradient(to right, #e5e5a7, #baffc9,#bae1ff, #ffdfba);
+    animation: rainbowHover 3s linear infinite;
+    animation-direction: reverse;
+    background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+}
+
+@keyframes rainbowHover {
+    to {
+        background-position: 200% center;
+      }
+
 }
 /* img{
     width: 25px;
